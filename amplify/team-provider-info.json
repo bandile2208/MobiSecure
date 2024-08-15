@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mobisecure-dev-3967d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::133588593514:role/amplify-mobisecure-dev-3967d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::133588593514:role/amplify-mobisecure-dev-3967d-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mobisecure-dev-3967d-deployment",
+      "UnauthRoleName": "amplify-mobisecure-dev-3967d-unauthRole",
+      "StackName": "amplify-mobisecure-dev-3967d",
+      "StackId": "arn:aws:cloudformation:us-east-1:133588593514:stack/amplify-mobisecure-dev-3967d/68e06ba0-5aa0-11ef-9576-12c80c7bb1e1",
+      "AmplifyAppId": "d35doxoxl53j6f"
+    }
+  },
+  "mobidev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mobisecure-mobidev-1a1f6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::133588593514:role/amplify-mobisecure-mobidev-1a1f6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::133588593514:role/amplify-mobisecure-mobidev-1a1f6-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mobisecure-mobidev-1a1f6-deployment",
+      "UnauthRoleName": "amplify-mobisecure-mobidev-1a1f6-unauthRole",
+      "StackName": "amplify-mobisecure-mobidev-1a1f6",
+      "StackId": "arn:aws:cloudformation:us-east-1:133588593514:stack/amplify-mobisecure-mobidev-1a1f6/cc9795c0-5b12-11ef-b55b-0e0abc6004d9",
+      "AmplifyAppId": "d32xgpi0kspb4w"
+    }
+  }
+}
