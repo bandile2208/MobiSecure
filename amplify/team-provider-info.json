@@ -22,7 +22,22 @@
       "UnauthRoleName": "amplify-mobisecure-mobidev-1a1f6-unauthRole",
       "StackName": "amplify-mobisecure-mobidev-1a1f6",
       "StackId": "arn:aws:cloudformation:us-east-1:133588593514:stack/amplify-mobisecure-mobidev-1a1f6/cc9795c0-5b12-11ef-b55b-0e0abc6004d9",
-      "AmplifyAppId": "d32xgpi0kspb4w"
+      "AmplifyAppId": "d32xgpi0kspb4w",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-mobisecure-mobidev-1a1f6-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "mobisecure26b6a178": {}
+      },
+      "function": {
+        "mobisecure26b6a178CustomMessage": {
+          "REDIRECTURL": "http://localhost:8081/",
+          "EMAILSUBJECT": "Confirm Account",
+          "EMAILMESSAGE": "Please click this link to verify your email account",
+          "deploymentBucketName": "amplify-mobisecure-mobidev-1a1f6-deployment",
+          "s3Key": "amplify-builds/mobisecure26b6a178CustomMessage-636b4c59507457705262-build.zip"
+        }
+      }
     }
   }
 }

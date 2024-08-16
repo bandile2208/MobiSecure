@@ -1,1 +1,90 @@
-{}
+{
+  "auth": {
+    "mobisecure26b6a178": {
+      "customAuth": false,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage",
+          "triggerProvider": "Cognito"
+        }
+      ],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "mobisecure26b6a178CustomMessage": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_mobisecure26b6a178CustomMessage_EMAILMESSAGE": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mobisecure26b6a178CustomMessage_EMAILSUBJECT": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mobisecure26b6a178CustomMessage_REDIRECTURL": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mobisecure26b6a178CustomMessage_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mobisecure26b6a178CustomMessage_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mobisecure26b6a178CustomMessage"
+        }
+      ]
+    }
+  }
+}
